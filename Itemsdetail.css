@@ -1,0 +1,22 @@
+
+.h{
+    text-align: center;
+    margin-right: 70%;
+}
+label{
+    font-size: 18px;
+    color: rgb(0, 89, 255);
+}
+.input{
+    height: 30px;
+    font-size: 18px;
+    width: 30%;
+    text-align: center;
+    
+}
+.submit{
+    height: 30px;
+    font-size: 18px;
+    width: 30%;
+    text-align: center;
+}
