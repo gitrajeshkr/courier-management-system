@@ -4,10 +4,17 @@
   <title>Signup</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
   <form action="" method="post" class="form">
-    <label>Your Name</label><br>
-    <input type="text" placeholder="Mr" class="input"><br>
+  
+      
+      <select name="Mr" id="Mr">
+        <option value="Mr">Mr</option>
+        <option value="Mrs">Mrs</option>
+        <option value="Mrs">Dr.</option>
+        </select>
+
+
     <input type="text" placeholder="first name" class="input"><br>
     <input type="text"  placeholder="Last Name" class="input"><br>
 	 
@@ -37,10 +44,8 @@
       <label>OTP</label>
 	  <input type="text" placeholder="OTP" class="input"><br>
 
-
-
-
-	 <button type ="submit" class="button">Signup</Button>
+    <button type ="submit" class="button">Signup</Button>
+    <button type ="submit" class="button">Clear</Button>
    
   </form>
 </body>
